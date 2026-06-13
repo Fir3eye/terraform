@@ -29,10 +29,6 @@ terraform {
     dynamodb_table = "terraform-state-locks" # Tells Terraform to lock using this table
   }
 
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 5.0"
-    }
-  }
+
+   
 }
