@@ -10,3 +10,9 @@ resource "aws_instance" "test" {
     Name = "Production-Test-Server"
   }
 }
+
+
+resource "aws_s3_bucket" "demo-bucket" {
+    bucket = "bucket-e334533453sdf"
+  
+}
